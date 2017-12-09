@@ -271,6 +271,12 @@ if &t_Co > 255
    endif
 end
 
+" buftabline-specific
+hi TabLineSel      ctermfg=10 ctermbg=0
+hi PmenuSel        ctermfg=240 ctermbg=0
+hi TabLine         ctermfg=240 ctermbg=0
+hi TabLineFill     ctermfg=0 ctermbg=0
+
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
 set background=dark
