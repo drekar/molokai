@@ -148,7 +148,7 @@ if &t_Co > 255
    hi Character       ctermfg=144
    hi Number          ctermfg=135
    hi String          ctermfg=144
-   hi Conditional     ctermfg=161               cterm=bold
+   hi Conditional     ctermfg=42                cterm=none
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=253
    hi Debug           ctermfg=225               cterm=bold
@@ -172,7 +172,7 @@ if &t_Co > 255
    hi Ignore          ctermfg=244 ctermbg=232
    hi IncSearch       ctermfg=193 ctermbg=16
 
-   hi keyword         ctermfg=161               cterm=bold
+   hi keyword         ctermfg=42                cterm=none
    hi Label           ctermfg=229               cterm=none
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
@@ -180,7 +180,7 @@ if &t_Co > 255
    hi MatchParen      ctermfg=233  ctermbg=208 cterm=bold
    hi ModeMsg         ctermfg=229
    hi MoreMsg         ctermfg=229
-   hi Operator        ctermfg=161
+   hi Operator        ctermfg=42
 
    " complete menu
    hi Pmenu           ctermfg=81  ctermbg=16
@@ -205,7 +205,7 @@ if &t_Co > 255
        hi SpellLocal              ctermbg=17
        hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
    endif
-   hi Statement       ctermfg=161               cterm=bold
+   hi Statement       ctermfg=42                cterm=none
    hi StatusLine      ctermfg=238 ctermbg=253
    hi StatusLineNC    ctermfg=244 ctermbg=232
    hi StorageClass    ctermfg=208
@@ -224,7 +224,7 @@ if &t_Co > 255
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
-   hi Comment         ctermfg=59
+   hi Comment         ctermfg=65
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
    hi LineNr          ctermfg=250 ctermbg=236
@@ -253,7 +253,7 @@ if &t_Co > 255
        hi Function        ctermfg=154
        hi Identifier      ctermfg=208
 
-       hi Keyword         ctermfg=197               cterm=bold
+       hi Keyword         ctermfg=42                cterm=bold
        hi Operator        ctermfg=197
        hi PreCondit       ctermfg=154               cterm=bold
        hi PreProc         ctermfg=154
